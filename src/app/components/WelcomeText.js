@@ -14,7 +14,7 @@ const WelcomeText = ({ text }) => {
   const item = TextsImgs.find((el) => el.text === text);
 
   // caso não encontre, evita erro
-  if (!item) return <p>Imagem não encontrada para "{text}"</p>;
+  if (!item) return <p>Imagem não encontrada para &quot;{text}&quot;</p>;
 
   
   return (

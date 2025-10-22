@@ -36,13 +36,13 @@ export default async function AuthorsDetail({ params }) {
                             <span className="font-bold uppercase text-lg">follow</span>
                             <ul className='flex flex-row items-center justify-center space-x-4'>
                                 <li>
-                                    <a href="/" target="blank_"><FaInstagram className="text-2xl"/></a>
+                                    <Link href="/" target="blank_"><FaInstagram className="text-2xl"/></Link>
                                 </li>
                                 <li>
-                                    <a href="/" target="blank_"><FaTwitter className="text-2xl"/></a>
+                                    <Link href="/" target="blank_"><FaTwitter className="text-2xl"/></Link>
                                 </li>
                                 <li>
-                                    <a href="/" target="blank_"><FaFacebook className="text-2xl"/></a>
+                                    <Link href="/" target="blank_"><FaFacebook className="text-2xl"/></Link>
                                 </li>
                             </ul>
                         </section>

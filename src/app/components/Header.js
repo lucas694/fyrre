@@ -43,16 +43,16 @@ const Header = () => {
                         <li>
                             <ul className='flex flex-row items-center justify-center space-x-4'>
                                 <li>
-                                    <a href="/" target="blank_"><FaInstagram className="text-lg"/></a>
+                                    <Link href="/" target="blank_"><FaInstagram className="text-lg"/></Link>
                                 </li>
                                 <li>
-                                    <a href="/" target="blank_"><FaTwitter className="text-lg"/></a>
+                                    <Link href="/" target="blank_"><FaTwitter className="text-lg"/></Link>
                                 </li>
                                 <li>
-                                    <a href="/" target="blank_"><FaYoutube className="text-lg"/></a>
+                                    <Link href="/" target="blank_"><FaYoutube className="text-lg"/></Link>
                                 </li>
                                 <li>
-                                    <a href="/" target="blank_"><FaRss className="text-lg"/></a>
+                                    <Link href="/" target="blank_"><FaRss className="text-lg"/></Link>
                                 </li>
                             </ul>
                         </li>

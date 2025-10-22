@@ -111,13 +111,13 @@ export default async function MagazineDetail({ params }) {
                             <span className="font-bold">Share</span>
                             <ul className='flex flex-row items-center justify-center space-x-4'>
                                 <li>
-                                    <a href="/" target="blank_"><FaInstagram className="text-lg"/></a>
+                                    <Link href="/" target="blank_"><FaInstagram className="text-lg"/></Link>
                                 </li>
                                 <li>
-                                    <a href="/" target="blank_"><FaTwitter className="text-lg"/></a>
+                                    <Link href="/" target="blank_"><FaTwitter className="text-lg"/></Link>
                                 </li>
                                 <li>
-                                    <a href="/" target="blank_"><FaFacebook className="text-lg"/></a>
+                                    <Link href="/" target="blank_"><FaFacebook className="text-lg"/></Link>
                                 </li>
                             </ul>
                         </section>

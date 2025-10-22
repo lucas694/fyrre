@@ -40,13 +40,13 @@ export default async function PodcastDetail({ params }) {
                             <span className="font-bold uppercase text-lg">Listen On</span>
                             <ul className='flex flex-row items-center justify-center space-x-3'>
                                 <li>
-                                    <a href="/" target="blank_"><FaSpotify className="text-xl"/></a>
+                                    <Link href="/" target="blank_"><FaSpotify className="text-xl"/></Link>
                                 </li>
                                 <li>
-                                    <a href="/" target="blank_"><FaApple className="text-xl"/></a>
+                                    <Link href="/" target="blank_"><FaApple className="text-xl"/></Link>
                                 </li>
                                 <li>
-                                    <a href="/" target="blank_"><FaSoundcloud className="text-xl"/></a>
+                                    <Link href="/" target="blank_"><FaSoundcloud className="text-xl"/></Link>
                                 </li>
                             </ul>
                         </section>
@@ -63,13 +63,13 @@ export default async function PodcastDetail({ params }) {
                             <span className="font-bold">Share</span>
                             <ul className='flex flex-row items-center justify-center space-x-4'>
                                 <li>
-                                    <a href="/" target="blank_"><FaInstagram className="text-lg"/></a>
+                                    <Link href="/" target="blank_"><FaInstagram className="text-lg"/></Link>
                                 </li>
                                 <li>
-                                    <a href="/" target="blank_"><FaTwitter className="text-lg"/></a>
+                                    <Link href="/" target="blank_"><FaTwitter className="text-lg"/></Link>
                                 </li>
                                 <li>
-                                    <a href="/" target="blank_"><FaFacebook className="text-lg"/></a>
+                                    <Link href="/" target="blank_"><FaFacebook className="text-lg"/></Link>
                                 </li>
                             </ul>
                         </section>

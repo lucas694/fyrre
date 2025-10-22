@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
     return(
@@ -36,35 +37,35 @@ const Footer = () => {
                     <div className=' text-white w-[100%] flex flex-col space-x-10 md:w-[65%] md:flex-row xl:w-[60%]'>
                         <ul className='border-t border-[#353535] w-full mt-6 md:mt-0'>
                             <li className="mt-6 font-semibold ">
-                                <a href='/#'>Art</a>
+                                <Link href='/art'>Art</Link>
                             </li>
                             <li className="mt-6 font-semibold">
-                                <a href='/#'>Sculptures</a>
+                                <Link href='/sculptures'>Sculptures</Link>
                             </li>
                             <li className="mt-6 font-semibold">
-                                <a href='/#'>Street Art</a>
-                            </li>
-                        </ul>
-                        <ul className='border-t border-[#353535] w-full mt-6 md:mt-0'>
-                            <li className="mt-6 font-semibold">
-                                <a href='/#'>Magazine</a>
-                            </li>
-                            <li className="mt-6 font-semibold">
-                                <a href='/#'>Podcast</a>
-                            </li>
-                            <li className="mt-6 font-semibold">
-                                <a href='/#'>Authors</a>
+                                <Link href='/streetart'>Street Art</Link>
                             </li>
                         </ul>
                         <ul className='border-t border-[#353535] w-full mt-6 md:mt-0'>
                             <li className="mt-6 font-semibold">
-                                <a href='/#'>Styleguide</a>
+                                <Link href='/magazine'>Magazine</Link>
                             </li>
                             <li className="mt-6 font-semibold">
-                                <a href='/#'>Licensing</a>
+                                <Link href='/podcast'>Podcast</Link>
                             </li>
                             <li className="mt-6 font-semibold">
-                                <a href='/#'>Changelog</a>
+                                <Link href='/authors'>Authors</Link>
+                            </li>
+                        </ul>
+                        <ul className='border-t border-[#353535] w-full mt-6 md:mt-0'>
+                            <li className="mt-6 font-semibold">
+                                <Link href='/#'>Styleguide</Link>
+                            </li>
+                            <li className="mt-6 font-semibold">
+                                <Link href='/#'>Licensing</Link>
+                            </li>
+                            <li className="mt-6 font-semibold">
+                                <Link href='/#'>Changelog</Link>
                             </li>
                         </ul>
                     </div>
